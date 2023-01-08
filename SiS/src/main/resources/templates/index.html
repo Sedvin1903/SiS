@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Student Information System</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      img {
+        width: 100%;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-right: 0;
+    margin-left: 0;
+    
+
+      }
+      .image {
+        flex-basis:10%;
+        padding-left: 0 px;
+        
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 220px;
+        padding-right: 150px;
+        
+      }
+      h2
+      {
+        color:blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="image">
+            <img
+              src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg"
+              alt="Logo"
+              width="60"
+              height="60"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+        </div>
+     
+
+      <div class="text">
+        <h2 > SiS [ Student Information System ] </h2>
+      </div>
+      <div> <a class="btn btn-primary "th:href="@{/students}" role="button">Experience it !!</a> </div>
+    </div>
+    <div>
+      <img
+        src="https://cdn.techjockey.com/blog/wp-content/uploads/2020/07/Whats-the-Purpose-of-Student-Information-Systems_banner.png"
+        alt="alternatetext"
+      />
+    </div>
+    
+  </body>
+</html>
